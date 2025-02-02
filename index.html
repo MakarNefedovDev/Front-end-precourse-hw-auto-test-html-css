@@ -44,25 +44,48 @@
         </div>
         <div data-cy="hw1-skills-box-pre">
             <h2>Мои скиллы</h2>
-                <form action="#">
-                    <input type="checkbox" checked> HTML
-                    <input type="checkbox" checked> CSS
-                    <input type="checkbox"> JS
-                    <input type="checkbox"> React
-                </form>
+            <form action="#">
+                <input type="checkbox" checked> HTML
+                <input type="checkbox" checked> CSS
+                <input type="checkbox"> JS
+                <input type="checkbox"> React
+            </form>
         </div>
         <input type="text" placeholder="новый скилл">
-        <button type="submit">добавить</button>
+        <button>добавить</button>
         <hr>
-        <table data-cy="hw-about-table-pre">
+        <table border="1" data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
+            <tr>
+                <th>к/о</th>
+                <th>Наименование</th>
+                <th>Количество</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Монитор</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Клавиатура</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Мышка</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td colspan="2">Итого</td>
+                <td>7</td>
+            </tr>            
         </table>
     </section>
     <footer data-cy="hw-footer-pre">
-        <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
          <a href=" https://it-incubator.io/">it-incubator</a>
     </footer>
 </body>
