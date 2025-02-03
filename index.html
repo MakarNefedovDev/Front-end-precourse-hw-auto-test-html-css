@@ -44,12 +44,18 @@
         </div>
         <div data-cy="hw1-skills-box-pre">
             <h2>Мои скиллы</h2>
-            <form>
-                <input type="checkbox" checked> HTML
-                <input type="checkbox" checked> CSS
-                <input type="checkbox"> JS
+            <label for="html">
+                <input id="html" type="checkbox" checked> HTML
+            </label>
+            <label for="css">
+                <input id="css" type="checkbox" checked> CSS
+            </label>   
+            <label for="js">
+                <input id="js" type="checkbox"> JS
+            </label>  
+            <label for="react">
                 <input type="checkbox"> React
-            </form>
+            </label>
         </div>
         <input type="text" placeholder="Новый скилл">
         <button>добавить</button>
